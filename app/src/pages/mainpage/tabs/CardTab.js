@@ -22,9 +22,9 @@ export default class CardTab extends React.Component {
     this.state = {
       selectedCard: {},
       returnedData:[{
-        "valid": "0620",
-        "balance": "$1000000",
-        "name": "sandhya",
+        "valid": "MMYY",
+        "balance": "$$$$$$$$",
+        "name": ".....",
         "type": "visa",
         "transactions": [{
           "date": "May 1",
@@ -32,11 +32,11 @@ export default class CardTab extends React.Component {
           "name": "Transfer from",
           "type": "Visa 6600 8800 0066 0088"
         }],
-        "cardNumber": "1234 1234 1234 1234"
+        "cardNumber": "xxxx xxxx xxxx xxxx"
       }, {
-        "valid": "0620",
-        "balance": "$2000000",
-        "name": "sandhya",
+        "valid": "MMYY",
+        "balance": "$$$$$$$$",
+        "name": ".....",
         "type": "visa",
         "transactions": [{
           "date": "May 1",
@@ -44,11 +44,11 @@ export default class CardTab extends React.Component {
           "name": "Transfer from",
           "type": "Visa 6600 8800 0066 0088"
         }],
-        "cardNumber": "1234 1234 1234 2222"
+        "cardNumber": "xxxx xxxx xxxx xxxx"
       }, {
-        "valid": "0620",
-        "balance": "$3000000",
-        "name": "sandhya",
+        "valid": "MMYY",
+        "balance": "$$$$$$$$",
+        "name": ".....",
         "type": "mastercard",
         "transactions": [{
           "date": "May 1",
@@ -56,11 +56,11 @@ export default class CardTab extends React.Component {
           "name": "Transfer from",
           "type": "Visa 6600 8800 0066 0088"
         }],
-        "cardNumber": "1234 1234 1234 3333"
+        "cardNumber": "xxxx xxxx xxxx xxxx"
       }, {
-        "valid": "0620",
-        "balance": "$4000000",
-        "name": "sandhya",
+        "valid": "MMYY",
+        "balance": "$$$$$$$$",
+        "name": ".....",
         "type": "mastercard",
         "transactions": [{
           "date": "May 1",
@@ -68,7 +68,7 @@ export default class CardTab extends React.Component {
           "name": "Transfer from",
           "type": "Visa 6600 8800 0066 0088"
         }],
-        "cardNumber": "1234 1234 1234 4444"
+        "cardNumber": "xxxx xxxx xxxx xxxx"
       }]
     };
   }
